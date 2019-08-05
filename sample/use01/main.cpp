@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
     Mat image;
     image = imread(argv[1], 1);
-    
+
     if (!image.data)
     {
         printf("no image data! \n");
